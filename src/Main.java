@@ -13,6 +13,8 @@ public class Main {
 
         System.out.println(divide(12, 15));
         System.out.println(divide(100.0, 25.1));
+
+        int z = 100;
     }
 
     //We're overloading a method
