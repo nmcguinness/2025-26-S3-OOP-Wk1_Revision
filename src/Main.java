@@ -5,6 +5,14 @@ public class Main {
 
     public static void main(String[] args) {
 
+        System.out.println("Run exercise 2...");
+        Exercises.Exercise2();
+
+
+
+
+
+
         int a = 5;  //double is 8-bytes
         int b = 9;     //int is 4-bytes
 

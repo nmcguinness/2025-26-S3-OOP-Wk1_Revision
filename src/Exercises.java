@@ -2,6 +2,17 @@ import java.util.Scanner;
 
 public class Exercises {
 
+    public static void Exercise4()
+    {
+        //generate number - Random
+
+        //define number of repeats
+
+        //for loop until repeats or we guess the number
+            //if low then sout, else high, else == number
+    }
+
+
     public static void Exercise2()
     {
         Scanner sc = new Scanner(System.in);
