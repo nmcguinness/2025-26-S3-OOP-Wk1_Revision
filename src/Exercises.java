@@ -14,10 +14,12 @@ public class Exercises {
         int secretRandom = getRandomInRange(1, 100);
         boolean bContinue = true;
 
+        Scanner sc = new Scanner(System.in);
+        int guessRandom = -1;
+
         while(bContinue) {
             System.out.println("Enter a random number: ");
-            Scanner sc = new Scanner(System.in);
-            int guessRandom = sc.nextInt();
+            guessRandom = sc.nextInt();
             if (guessRandom == secretRandom) {
                 System.out.println("You guessed it!");
                 bContinue = false;

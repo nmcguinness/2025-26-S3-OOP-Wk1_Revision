@@ -5,16 +5,20 @@ public class Main {
 
     public static void main(String[] args) {
 
+        /*
         try {
             int random = Exercises.getRandomInRange(1, 100);
         }
         catch (Exception e) {
             System.out.println("Did you forget to implement this? " + e.getMessage());
-        }
+        }*/
 
 
         System.out.println("Run exercise 2...");
         Exercises.Exercise2();
+
+        System.out.println("Run exercise 4...");
+        Exercises.Exercise4();
 
         int a = 5;  //double is 8-bytes
         int b = 9;     //int is 4-bytes
